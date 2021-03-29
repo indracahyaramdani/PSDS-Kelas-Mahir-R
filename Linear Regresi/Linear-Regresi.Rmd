@@ -186,11 +186,12 @@ model = lm(X~SalePrice, data=df_1)
 summary(model)
 ```
 
-###*Grafik Linear Regresi*
+### *Grafik Linear Regresi*
 ```{r}
 g1= plot(df_1$X,df_1$SalePrice,xlab = "X",ylab ="Sale Price",col="blue")
 abline(lm(df_1$X~df_1$SalePrice),col="red")
 ```
 
-##**Melihat variabel utama(paling berpengaruh)**
-##**Mengekspor model ke dalam file Pickle**
+## **Melihat variabel utama(paling berpengaruh)**
+
+## **Mengekspor model ke dalam file Pickle**
